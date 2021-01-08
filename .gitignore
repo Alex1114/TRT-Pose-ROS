@@ -16,7 +16,6 @@ catkin_ws/share/
 *.pyc
 *.graph
 *.so
-*.png
 *.wav
 *.zip
 *.jpg
