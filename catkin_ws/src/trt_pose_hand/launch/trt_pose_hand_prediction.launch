@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+	<include file="$(find realsense2_camera)/launch/rs_rgbd.launch">
+	</include>
+
+	<node pkg="trt_pose_hand" type="trt_pose_hand_prediction.py" name="trt_pose_hand_prediction" output="screen"/>
+</launch>
